@@ -1,0 +1,53 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "text": "Doctors Appointment",
+      "day": "May 5th at 2:30pm",
+      "reminder": true
+    },
+    {
+      "id": 2,
+      "text": "Meeting at School",
+      "day": "May 6th at 1:30pm",
+      "reminder": true
+    },
+    {
+      "id": 3,
+      "text": "Food Shopping",
+      "day": "May 7th at 12:30pm",
+      "reminder": false
+    }
+  ,
+    {
+      "id": 4,
+      "text": "Gym Workout",
+      "day": "May 8th at 6:00am",
+      "reminder": true
+    },
+    {
+      "id": 5,
+      "text": "Team Standup",
+      "day": "May 8th at 9:00am",
+      "reminder": true
+    },
+    {
+      "id": 6,
+      "text": "Dentist Checkup",
+      "day": "May 9th at 3:00pm",
+      "reminder": false
+    },
+    {
+      "id": 7,
+      "text": "Pick up Dry Cleaning",
+      "day": "May 10th at 11:00am",
+      "reminder": false
+    },
+    {
+      "id": 8,
+      "text": "Birthday Party",
+      "day": "May 11th at 5:00pm",
+      "reminder": true
+    }
+  ]
+}
