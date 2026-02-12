@@ -2,4 +2,5 @@
   *ngFor="let task of tasks"
   [task]="task"
   (onDeleteTask)="deleteTasks(task)"
+  (onToggleReminder)="toggleReminder(task)"
 ></app-task-item>
