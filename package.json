@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "npx ng serve",
+    "start": "NODE_OPTIONS=--openssl-legacy-provider npx ng serve",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
@@ -11,6 +11,9 @@
     "server": "json-server --watch db.json"
   },
   "private": true,
+  "overrides": {
+    "postcss": "8.4.31"
+  },
   "dependencies": {
     "@angular/animations": "~11.1.1",
     "@angular/common": "~11.1.1",
@@ -45,8 +48,6 @@
     "karma-coverage": "~2.0.3",
     "karma-jasmine": "~4.0.0",
     "karma-jasmine-html-reporter": "^1.5.0",
-    "postcss": "^8.4.14",
-    "postcss-loader": "^4.3.0",
     "protractor": "~7.0.0",
     "ts-node": "~8.3.0",
     "tslint": "~6.1.0",
