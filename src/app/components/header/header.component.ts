@@ -9,7 +9,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
   title: string = 'Task Tracker';
-  showAddTask: boolean;
+  showAddTask!: boolean;
   subscription: Subscription;
 
   constructor(private uiService: UiService) {
