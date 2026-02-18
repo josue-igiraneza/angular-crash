@@ -43,20 +43,8 @@
       "reminder": true
     },
     {
-      "id": "9",
-      "text": "Test task to delete",
-      "day": "Test delete",
-      "reminder": true
-    },
-    {
       "id": "17b4",
       "text": "test task ",
-      "day": "5th may",
-      "reminder": true
-    },
-    {
-      "id": "bfa1",
-      "text": "hello",
       "day": "5th may",
       "reminder": true
     },
@@ -70,6 +58,12 @@
       "id": "4ba3",
       "text": "Siete Task",
       "day": "seis de mayo",
+      "reminder": true
+    },
+    {
+      "id": "0c6c",
+      "text": "DO something stupid",
+      "day": "Ocho de Mayo",
       "reminder": true
     }
   ]

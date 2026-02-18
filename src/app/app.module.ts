@@ -17,6 +17,7 @@ import { TaskDetailsComponent } from './components/task-details/task-details.com
 const appRoutes: Routes = [
   { path: '', component: TasksComponent },
   { path: 'about', component: AboutComponent },
+  { path: 'details/:id', component: TaskDetailsComponent },
 ];
 
 @NgModule({
