@@ -1,0 +1,7 @@
+<div *ngIf="task" class="task-detail">
+  <h2>{{ task.day }}</h2>
+  <p>{{ task.text }}</p>
+</div>
+<div *ngIf="!task">
+  <p>There is no task</p>
+</div>
