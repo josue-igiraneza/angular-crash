@@ -13,6 +13,7 @@ import { AddTaskComponent } from './components/add-task/add-task.component';
 import { AboutComponent } from './components/about/about.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { TaskDetailsComponent } from './components/task-details/task-details.component';
+import { BackButtonComponent } from './components/back-button/back-button.component';
 
 const appRoutes: Routes = [
   { path: '', component: TasksComponent },
@@ -31,6 +32,7 @@ const appRoutes: Routes = [
     AboutComponent,
     FooterComponent,
     TaskDetailsComponent,
+    BackButtonComponent,
   ],
   imports: [
     BrowserModule,
