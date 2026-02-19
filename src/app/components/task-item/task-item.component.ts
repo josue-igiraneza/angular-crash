@@ -25,7 +25,6 @@ export class TaskItemComponent implements OnInit {
   }
 
   onTaskSelect(task: Task) {
-    console.log('route clicked');
     this.router.navigate(['/details', task.id]);
   }
 }
