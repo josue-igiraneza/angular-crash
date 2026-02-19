@@ -65,6 +65,12 @@
       "text": "DO something stupid",
       "day": "Ocho de Mayo",
       "reminder": true
+    },
+    {
+      "id": "4165",
+      "text": "Dummy task ",
+      "day": "4th July ",
+      "reminder": false
     }
   ]
 }
