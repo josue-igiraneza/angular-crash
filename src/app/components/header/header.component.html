@@ -6,4 +6,5 @@
     text="{{ showAddTask ? 'Close' : 'Add' }}"
     (btnClick)="toggleAddTask()"
   ></app-button>
+  <app-back-button *ngIf="!hasRoute('/')"></app-back-button>
 </header>
